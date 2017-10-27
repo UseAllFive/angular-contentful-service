@@ -125,3 +125,7 @@ this.cs.getEntry('3xd57HfJlSM2qmm8C6cueK', {include: 2})
 ## Contribute
 
 Please feel free to contribute to this repository. To do so, simply clone this repository and run `ng serve` to get the project working locally.
+
+## Brought to you by
+
+[![Use All Five](https://avatars0.githubusercontent.com/u/1775836?s=75&v=4)](http://useallfive.com)
