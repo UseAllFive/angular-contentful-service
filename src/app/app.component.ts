@@ -7,16 +7,15 @@ import { ContentfulService } from './modules/contentful/contentful.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  r: any;
 
-  constructor(private cs: ContentfulService) {
-
-  }
+  constructor(private cs: ContentfulService) {}
 
   getEntries(query?: any) {
-    this.cs.getEntries(query).then(res => console.log(res));
+    this.cs.getEntries(query).then(res => this.r = res);
   }
 
   getEntry(id: string, query?: any) {
-    this.cs.getEntry(id, query).then(res => console.log(res));
+    this.cs.getEntry(id, query).then(res => this.r = res);
   }
 }
