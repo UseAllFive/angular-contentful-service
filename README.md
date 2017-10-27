@@ -1,4 +1,4 @@
-[![GitHub package version](https://img.shields.io/github/package-json/v/badges/shields.svg)](https://github.com/UseAllFive/angular-contentful-service/blob/master/package.json) [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/useallfive)
+[![GitHub issues](https://img.shields.io/github/issues/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service/issues) [![Twitter](https://img.shields.io/twitter/url/https/github.com/UseAllFive/angular-contentful-service.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FUseAllFive%2Fangular-contentful-service)
 
 # Angular Contentful Service
 
