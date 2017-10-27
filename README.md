@@ -1,3 +1,5 @@
+[![GitHub package version](https://img.shields.io/github/package-json/v/badges/shields.svg)](https://github.com/UseAllFive/angular-contentful-service/blob/master/package.json) [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/useallfive)
+
 # Angular Contentful Service
 
 A [Contentful](https://app.contentful.com/) wrapper for [Angular](http://angular.io) that makes our lives just a bit easier.
