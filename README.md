@@ -1,4 +1,4 @@
-[![GitHub issues](https://img.shields.io/github/issues/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service/issues) [![Twitter](https://img.shields.io/twitter/url/https/github.com/UseAllFive/angular-contentful-service.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FUseAllFive%2Fangular-contentful-service)
+[![GitHub license](https://img.shields.io/github/license/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service) [![GitHub issues](https://img.shields.io/github/issues/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service/issues) [![Twitter](https://img.shields.io/twitter/url/https/github.com/UseAllFive/angular-contentful-service.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FUseAllFive%2Fangular-contentful-service)
 
 # Angular Contentful Service
 
