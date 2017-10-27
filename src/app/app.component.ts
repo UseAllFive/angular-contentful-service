@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ContentfulService } from './modules/contentful/contentful.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  constructor(private cs: ContentfulService) {
+
+  }
+
+  getEntries(query?: any) {
+    this.cs.getEntries(query).then(res => console.log(res));
+  }
+
+  getEntry(id: string, query?: any) {
+    this.cs.getEntry(id, query).then(res => console.log(res));
+  }
 }
