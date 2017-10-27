@@ -1,6 +1,6 @@
 # Angular Contentful Service
 
-A [Contentful](https://app.contentful.com/) wrapper for [Angular](http://angular.io) that makes using the Contentful Javascript SDK with Angular just a bit more painless.
+A [Contentful](https://app.contentful.com/) wrapper for [Angular](http://angular.io) that makes our lives just a bit easier.
 
 ## Installation
 
