@@ -12,6 +12,10 @@
     "packagr": "ng-packagr -p ng-package.json"
   },
   "private": false,
+  "keywords": [
+    "angular",
+    "contentful"
+  ],
   "dependencies": {
     "@angular/animations": "^4.2.4",
     "@angular/common": "^4.2.4",
