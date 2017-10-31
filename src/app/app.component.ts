@@ -8,14 +8,23 @@ import { ContentfulService } from './modules/contentful/contentful.service';
 })
 export class AppComponent {
   r: any;
+  l = false;
 
   constructor(private cs: ContentfulService) {}
 
   getEntries(query?: any) {
-    this.cs.getEntries(query).then(res => this.r = res);
+    this.l = true;
+    this.cs.getEntries(query).then(res => {
+      this.r = res;
+      this.l = false;
+    });
   }
 
   getEntry(id: string, query?: any) {
-    this.cs.getEntry(id, query).then(res => this.r = res);
+    this.l = true;
+    this.cs.getEntry(id, query).then(res => {
+      this.r = res;
+      this.l = false;
+    });
   }
 }
