@@ -2,7 +2,7 @@
 
 # Angular Contentful Service
 
-A [Contentful](https://app.contentful.com/) wrapper for [Angular](http://angular.io) that makes our lives just a bit easier. Also, requests to the Contentful API are cached for improved performance!
+A [contentful.js](https://github.com/contentful/contentful.js/) wrapper for [Angular](http://angular.io) that makes our lives just a bit easier. Also, requests to the Contentful API are cached for improved performance!
 
 ## Installation
 
