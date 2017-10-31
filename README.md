@@ -1,8 +1,8 @@
-[![GitHub license](https://img.shields.io/github/license/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service) [![GitHub issues](https://img.shields.io/github/issues/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service/issues) [![Twitter](https://img.shields.io/twitter/url/https/github.com/UseAllFive/angular-contentful-service.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FUseAllFive%2Fangular-contentful-service)
+[![GitHub release](https://img.shields.io/github/release/UseAllFive/angular-contentful-service.svg)]() [![GitHub license](https://img.shields.io/github/license/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service) [![GitHub issues](https://img.shields.io/github/issues/UseAllFive/angular-contentful-service.svg)](https://github.com/UseAllFive/angular-contentful-service/issues) [![Twitter](https://img.shields.io/twitter/url/https/github.com/UseAllFive/angular-contentful-service.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FUseAllFive%2Fangular-contentful-service)
 
 # Angular Contentful Service
 
-A [Contentful](https://app.contentful.com/) wrapper for [Angular](http://angular.io) that makes our lives just a bit easier. Also, requests to the Contentful API are cached for improved performance!
+A [contentful.js](https://github.com/contentful/contentful.js/) wrapper for [Angular](http://angular.io) that makes our lives just a bit easier. Also, requests to the Contentful API are cached for improved performance!
 
 ## Installation
 
