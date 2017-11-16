@@ -12,6 +12,16 @@ A [contentful.js](https://github.com/contentful/contentful.js/) wrapper for [Ang
 npm i --save angular-contentful-service
 ```
 
+### Install contentful
+
+If you haven't already, make sure you install contentful
+
+```
+npm i --save contentful
+```
+
+Note: at the time of writing this, there is an issue with version 5.0.4 of Contentful. You may want to make sure you install 5.0.3 or the fix that comes after 5.0.4.
+
 ### Add to your app module
 
 ```typescript
