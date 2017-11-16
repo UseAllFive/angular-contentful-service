@@ -2,7 +2,6 @@ import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Config} from './config';
 import { ContentfulService } from './contentful.service';
-export { ContentfulService } from './contentful.service';
 
 @NgModule({
   imports: [
