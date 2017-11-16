@@ -18,7 +18,7 @@ npm i --save angular-contentful-service
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { ContentfulModule } from './modules/contentful/contentful.module';
+import { ContentfulModule } from 'angular-contentful-service';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,7 @@ export class AppModule { }
 
 ```typescript
 import { Component } from '@angular/core';
-import { ContentfulService } from './modules/contentful/contentful.service';
+import { ContentfulService } from 'angular-contentful-service'
 
 @Component({
   selector: 'app-root',
