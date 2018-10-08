@@ -23,40 +23,39 @@ npm i --save contentful
 ### Add to your app module
 
 ```typescript
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
-import { ContentfulModule } from 'angular-contentful-service';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { AppComponent } from "./app.component";
+import { ContentfulModule } from "angular-contentful-service";
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     ContentfulModule.forRoot({
-      space: 'yadj1kx9rmg0', // your space ID
-      accessToken: 'fdb4e7a3102747a02ea69ebac5e282b9e44d28fb340f778a4f5e788625a61abe', // your access token
-    }),
+      space: "yadj1kx9rmg0", // your space ID
+      accessToken:
+        "fdb4e7a3102747a02ea69ebac5e282b9e44d28fb340f778a4f5e788625a61abe", // your access token
+      environment: "master" // set optional environment, defaults to 'master'
+    })
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 ### Use the Contentful Service
 
 ```typescript
-import { Component } from '@angular/core';
-import { ContentfulService } from 'angular-contentful-service'
+import { Component } from "@angular/core";
+import { ContentfulService } from "angular-contentful-service";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-
   constructor(private cs: ContentfulService) {}
 
   getEntries(query?: any) {
@@ -75,6 +74,7 @@ export class AppComponent {
 {
   space: string;
   accessToken: string;
+  environment?: "master" | string = "master";
   insecure?: boolean;
   host?: string;
   basePath?: string;
@@ -111,7 +111,7 @@ Information on `EntryCollection` type found here: https://github.com/contentful/
 Example:
 
 ```typescript
-this.cs.getEntries({include: 2});
+this.cs.getEntries({ include: 2 });
 ```
 
 ### getEntry()
@@ -127,7 +127,7 @@ Information on `Entry` type found here: https://github.com/contentful/contentful
 Example:
 
 ```typescript
-this.cs.getEntry('3xd57HfJlSM2qmm8C6cueK', {include: 2})
+this.cs.getEntry("3xd57HfJlSM2qmm8C6cueK", { include: 2 });
 ```
 
 ## Contribute
