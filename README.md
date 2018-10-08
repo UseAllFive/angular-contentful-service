@@ -34,9 +34,9 @@ import { ContentfulModule } from "angular-contentful-service";
     BrowserModule,
     ContentfulModule.forRoot({
       space: "yadj1kx9rmg0", // your space ID
-      environment: "master", // set optional environment, defaults to 'master'
       accessToken:
-        "fdb4e7a3102747a02ea69ebac5e282b9e44d28fb340f778a4f5e788625a61abe" // your access token
+        "fdb4e7a3102747a02ea69ebac5e282b9e44d28fb340f778a4f5e788625a61abe", // your access token
+      environment: "master" // set optional environment, defaults to 'master'
     })
   ],
   bootstrap: [AppComponent]
@@ -74,6 +74,7 @@ export class AppComponent {
 {
   space: string;
   accessToken: string;
+  environment?: "master" | string = "master";
   insecure?: boolean;
   host?: string;
   basePath?: string;
