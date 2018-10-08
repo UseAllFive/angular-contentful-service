@@ -9,9 +9,9 @@ import { ContentfulModule } from "./modules/contentful/contentful.module";
     BrowserModule,
     ContentfulModule.forRoot({
       space: "yadj1kx9rmg0",
-      environment: "master",
       accessToken:
-        "fdb4e7a3102747a02ea69ebac5e282b9e44d28fb340f778a4f5e788625a61abe"
+        "fdb4e7a3102747a02ea69ebac5e282b9e44d28fb340f778a4f5e788625a61abe",
+      environment: "master"
     })
   ],
   bootstrap: [AppComponent]
