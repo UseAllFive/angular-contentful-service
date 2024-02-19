@@ -1,1 +1,1 @@
-export * from './src/app/modules/contentful/contentful.module';
+export * from "./src/app/modules/contentful/contentful.module";

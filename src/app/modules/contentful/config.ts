@@ -1,8 +1,9 @@
-import { AxiosProxyConfig } from 'contentful';
+import { AxiosProxyConfig } from "contentful";
 
 export class Config {
   space: string;
   accessToken: string;
+  environment?: "master" | string = "master";
   insecure?: boolean;
   host?: string;
   basePath?: string;
